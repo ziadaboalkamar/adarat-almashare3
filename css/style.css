@@ -4189,7 +4189,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-left: 0px; }
 
 .ltn__main-menu > ul > li > a {
-  font-size: 18px;
+  font-size: 15px;
   padding: 20px 10px;
   display: inline-block;
   white-space: nowrap;
@@ -5125,7 +5125,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .special-link a {
     background-color: var(--ltn__secondary-color);
     color: var(--white) !important;
-    padding: 12px 30px !important; }
+    padding: 12px 30px !important; 
+  border-radius: 6px;}
     .special-link a:hover {
       background-color: var(--section-bg-1);
       color: var(--ltn__primary-color) !important; }
@@ -14201,3 +14202,33 @@ input.cart-plus-minus-box {
   left: auto; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* start policy */
+.policy .image_of_policy{
+  max-height: 450px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.policy p{
+  line-height: 2.2;
+  color: #000000ab;
+}
+.policy h2{
+  font-family: 'myFirstFont', sans-serif !important;
+
+}
+.policy h2::after{
+
+  content: '';
+  height: 3px;
+  background: #6a0831d3;
+  width: 63px;
+  display: block;
+  text-align: 3;
+
+  margin: 0 auto;
+  padding-top: 10;
+  margin-top: 10px;
+}
+
+/* end policy */
